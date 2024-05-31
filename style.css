@@ -1,0 +1,37 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.header {
+    background-color: aqua;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 200px;
+    
+}
+
+.sidebar {
+    background-color: rebeccapurple;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.main-content{
+    background-color: gold;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
