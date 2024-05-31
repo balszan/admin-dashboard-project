@@ -11,7 +11,7 @@ html {
 }
 
 .header {
-    background-color: aqua;
+    background-color: white;
     grid-column-start: 2;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -21,15 +21,18 @@ html {
 }
 
 .sidebar {
-    background-color: rebeccapurple;
+    background-color: #1c93d2;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 7;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 .main-content{
-    background-color: gold;
+    background-color: #e1e8f0;
     grid-column-start: 2;
     grid-column-end: 7;
     grid-row-start: 2;
