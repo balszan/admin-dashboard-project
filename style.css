@@ -149,15 +149,23 @@ li img {
     padding-bottom: 12px;
 }
 
-.main-content-right {
-    display:grid;
-}
 
 .card {
     background-color: white;
     width: 400px;
     padding: 40px;
     border-radius: 12px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+    display:flex;
+    justify-content: right;
+}
+
+.card img {
+    width: 25px;
+    padding: 10px;
 }
 
 .long-card {
@@ -165,5 +173,6 @@ li img {
     width: 400px;
     padding: 40px;
     border-radius: 12px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 }
