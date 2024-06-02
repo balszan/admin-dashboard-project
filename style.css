@@ -20,6 +20,7 @@ html {
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+
 }
 
 .header-top {
@@ -33,6 +34,12 @@ html {
     width: 40px;
     height: 40px;
     justify-self: center;
+}
+
+.header-top p {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
 }
 
 #search {
@@ -56,6 +63,8 @@ html {
     display: grid;
     grid-template-columns: 1fr 4fr 0.5fr 0.5fr 0.5fr 0.25fr;
     line-height: 0px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
 }
 
 .header-bottom img {
@@ -75,6 +84,13 @@ html {
     width: 100px;
     justify-self: center;
     align-self: center;
+    margin-right: 10px;
+    
+}
+
+.header-bottom h5 {
+    font-size: 0.6em;
+    font-weight: 600;
 }
 
 
@@ -82,6 +98,7 @@ html {
     background-color: #1c93d2;
     color: white;
     grid-area: 1 / 1 / 7 / 2;
+    font-size: 1.2em;
 }
 
 .sidebar ul {
@@ -131,6 +148,7 @@ li img {
     display:grid;
     grid-template-columns: 3fr 1fr;
     padding: 20px;
+    gap: 30px;
 }
 
 .main-content-left {
@@ -152,10 +170,11 @@ li img {
 
 .card {
     background-color: white;
-    width: 400px;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em;
+    border-left: solid 10px #fbbf24;
 }
 
 .icons {
@@ -170,9 +189,26 @@ li img {
 
 .long-card {
     background-color: white;
-    width: 400px;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 }
+
+hr {
+    border: none;
+    border-top: 1.5px solid #d8d8d8;
+    margin: 20px 0;
+  }
+
+  .card-section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .name {
+    padding-left: 10px;
+    line-height: 0;
+  }
